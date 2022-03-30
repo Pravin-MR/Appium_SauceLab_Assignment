@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="platformName" value="Android"/>
+  <parameter name="udid" value="emulator-5554"/>
+  <parameter name="deviceName" value="Pixel 5"/>
+  <test thread-count="5" name="Pixel_4_sauce_lab_app_tests(failed)">
+    <classes>
+      <class name="com.qa.tests.AddCart">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+          <include name="beforeClass"/>
+          <include name="addToCart"/>
+          <include name="tearDown"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.qa.tests.AddCart -->
+    </classes>
+  </test> <!-- Pixel_4_sauce_lab_app_tests(failed) -->
+</suite> <!-- Failed suite [Suite] -->

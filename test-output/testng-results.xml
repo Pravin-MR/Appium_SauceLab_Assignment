@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="62882" started-at="2022-03-30T13:23:18 IST" finished-at="2022-03-30T13:24:20 IST">
+    <groups>
+    </groups>
+    <test name="Pixel_4_sauce_lab_app_tests" duration-ms="62882" started-at="2022-03-30T13:23:18 IST" finished-at="2022-03-30T13:24:20 IST">
+      <class name="com.qa.tests.AddCart">
+        <test-method status="PASS" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.AddCart@12028586]" name="setup" is-config="true" duration-ms="28503" started-at="2022-03-30T13:22:49 IST" finished-at="2022-03-30T13:23:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[emulator-5554]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pixel 5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.tests.AddCart@12028586]" name="beforeClass" is-config="true" duration-ms="7128" started-at="2022-03-30T13:23:18 IST" finished-at="2022-03-30T13:23:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.AddCart@12028586]" name="beforeMethod" is-config="true" duration-ms="426" started-at="2022-03-30T13:23:25 IST" finished-at="2022-03-30T13:23:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.AddCart.validUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validUser()[pri:1, instance:com.qa.tests.AddCart@12028586]" name="validUser" duration-ms="17783" started-at="2022-03-30T13:23:25 IST" finished-at="2022-03-30T13:23:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUser -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.AddCart@12028586]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2022-03-30T13:23:43 IST" finished-at="2022-03-30T13:23:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.AddCart.addToCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addToCart()[pri:2, instance:com.qa.tests.AddCart@12028586]" name="addToCart" duration-ms="37425" started-at="2022-03-30T13:23:43 IST" finished-at="2022-03-30T13:24:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.tests.AddCart@12028586]" name="afterClass" is-config="true" duration-ms="1" started-at="2022-03-30T13:24:20 IST" finished-at="2022-03-30T13:24:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.tests.AddCart@12028586]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-03-30T13:24:20 IST" finished-at="2022-03-30T13:24:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.AddCart -->
+    </test> <!-- Pixel_4_sauce_lab_app_tests -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" > 
+<suite name="Suite" parallel="false">
+	<parameter name="platformName" value="Android" />
+	<parameter name="udid" value="emulator-5554" />
+	<parameter name="deviceName" value="Pixel 5" />
+
+	<test name="Pixel_4_sauce_lab_app_tests">
+		<classes>
+			<class name="com.qa.tests.AddCart" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->
